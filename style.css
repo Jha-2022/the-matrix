@@ -1,0 +1,140 @@
+body{
+    background-color:black;
+}
+
+#first, #second, #third {
+    height:200px;
+    width:200px;
+}
+
+#first{
+    background-color:green;
+    position:relative;
+    top:70px;
+    left:50px;
+    
+}
+
+.words{
+    position:absolute;
+    color:rgb(300, 342, 245);
+    font-size: 100px;
+    top:180px;
+    left:30px
+}
+
+
+
+#second{
+    background-color:yellowgreen;
+    position:relative;
+    left:220px;
+    top:30px;
+}
+
+#third{
+    background-color:seagreen;
+    margin-left:50px;
+}
+
+#alien-img{
+    position:absolute;
+    border:5px seagreen;
+    left:760px;
+    top:100px;
+
+
+}
+#T{
+    margin:0;
+    padding:0;
+    height:70px;
+    width:40px;
+    color:rgb(101, 184, 0);
+    font-size: 70px
+}
+
+#start{ 
+    color:rgb(101, 184, 0);
+    font-size: 30px;
+    margin-top:-36px;
+    margin-left:40px
+}
+
+#phonecalls{
+    /**border:5px solid white;**/
+    position:absolute;
+    height:300px;
+    width:98%;
+    top:750px;
+}
+
+#phone{
+    position:absolute;
+    left:60px;
+
+}
+
+#text1{
+    /**border:3px solid white ;**/
+    width:50%;
+    position:absolute;
+    left:420px;
+    height:200px;
+    color:rgb(101, 184, 0);
+    font-size: 30px;
+    padding:3px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+#pickedup-call{
+   /** border:3px solid white;**/
+    position:absolute;
+    height:300px;
+    width:98%;
+    top:1130px;
+}
+
+#pickedup{
+    /**border:3px solid white;**/
+    position:absolute;
+    right:60px;
+    top:22px
+}
+
+#text2{
+   /** border:3px solid white;**/
+    width:50%;
+    position:absolute;
+    left:60px;
+    height:240px;
+    color:rgb(101, 184, 0);
+    font-size: 30px;
+    padding:30px;
+    font-family:'Courier New', Courier, monospace;
+
+}
+
+#message{
+    border:3px solid white;
+    position:absolute;
+    width:98%;
+    top:2080px;
+    height:300px 
+}
+
+#new-message{
+    border:3px solid white;
+    position:absolute;
+    top:22px;
+    right:60px;
+}
+
+#text3{
+    border:3px solid white;
+    width:60%;
+    position:absolute;
+    left:60px;
+    top:22px;
+    height:250px;
+}
